@@ -1,0 +1,145 @@
+body
+{
+    background: url(../Images/Background.png) repeat-x #FFFFFF;
+    color: #808080;
+    font: normal 12px/12px Arial, sans-serif;
+    line-height: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.clear
+{
+    clear: both;
+}
+
+h1, h2, h3
+{
+    margin: 0px;
+    margin-bottom: 25px;
+    padding: 0px;
+}
+
+h1
+{
+    color: #4993C5;
+    font: normal 19px/19px Arial, sans-serif;
+}
+
+h2
+{
+    font: normal 18px/18px Arial, sans-serif;
+}
+
+h3
+{
+    font: bold 14px/14px Arial, sans-serif;
+}
+
+input[type=text], input[type=password], select
+{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 4px;
+}
+
+input[type=submit], input[type=button]
+{
+    background: url(../Images/Button.png) repeat-x;
+    border: 0px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 31px;
+    font: bold 12px/12px Arial, sans-serif;
+}
+
+input[type=submit]:hover, input[type=button]:hover
+{
+    background: url(../Images/ButtonHover.png) repeat-x;
+}
+
+a, a:hover, a:visited, a:active
+{
+    color: #808080;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+ul
+{
+    list-style-image: url(../Images/ListCheck.jpg);
+}
+
+ul li
+{
+    padding: 5px;
+}
+
+.container
+{
+    margin: 0px auto;
+    width: 900px;
+}
+
+.footer
+{
+    border-top: 2px solid #2F6A93;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    padding-top: 20px;
+    text-align: center;
+    width: 102.5%;
+}
+
+.logo
+{
+    height: 105px;
+    width: 346px;
+}
+
+.image
+{
+    height: 150px;
+    margin-top: -15px;
+    width: 320px;
+}
+
+.menu
+{
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    background: #4993C5;
+    border: 1px solid #2F6A93;
+    border-top: 1px solid #2F6A93;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 43px;
+    margin-bottom: 15px;
+    margin-right: -27px;
+    margin-top: 30px;
+    width: 102.5%;
+}
+
+.item
+{
+    border-right: 1px dotted #2F6A93;
+    color: #FFFFFF;
+    float: left;
+    font: bold 11px/11px Arial, sans-serif;
+    height: 32px;
+    padding-top: 11px;
+    text-align: center;
+    width: 110px;
+}
+
+.text
+{
+    margin-top: 7px;
+}
