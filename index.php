@@ -1,6 +1,7 @@
 <?php
-define('APPLICATION', 'Hypixel');
+define('APPLICATION', 'JoeyBlankendaal_Hypixel');
 define('TEMPLATE', 'Hypixel');
+define('HYPIXEL_API_KEY', '93e81d6c-772a-459b-8c84-73b955356adc');
 
 require('libraries/JoeyBlankendaal/Core/Bootstrap.php');
 require('libraries/JoeyBlankendaal/Core/Configuration.php');

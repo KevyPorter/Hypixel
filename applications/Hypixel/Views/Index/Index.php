@@ -1,2 +1,0 @@
-        <h1>Index</h1>
-        <p>Welcome to some functions working with the Hypixel Public API. This website is not affiliated with Hypixel Network and is purely made for educational purposes. If you'd like to use the Hypixel API yourself, see the links in the footer for more information.</p>

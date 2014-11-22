@@ -41,7 +41,8 @@ class Bootstrap
         
         if ($request == array('Index'))
         {
-            require('applications/' . APPLICATION . '/Views/Index/Index.php');
+            require('applications/' . APPLICATION . '/Views/Index/Welcome.php');
+            require('applications/' . APPLICATION . '/Views/Index/ContactMe.php');
         }
         else if (file_exists('applications/' . APPLICATION . '/Controllers/' . str_replace('/', '', ucfirst($request[0])) . '.php'))
         {

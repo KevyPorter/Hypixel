@@ -24,7 +24,9 @@
         </div>
         
         <div class="menu">
-            <a href="/"><div class="item">Index</div></a>
+            <a href="/"><div class="first item">Index</div></a>
+            <a href="/players"><div class="item">Players</div></a>
             <a href="/leaderboards"><div class="item">Leaderboards</div></a>
+            <a href="/guilds"><div class="item">Guilds</div></a>
         </div>
 

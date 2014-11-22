@@ -121,15 +121,22 @@ ul li
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 43px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     margin-right: -27px;
     margin-top: 30px;
     width: 102.5%;
 }
 
+.first
+{
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
 .item
 {
-    border-right: 1px dotted #2F6A93;
+    background: #4993C5;
     color: #FFFFFF;
     float: left;
     font: bold 11px/11px Arial, sans-serif;
@@ -139,7 +146,14 @@ ul li
     width: 110px;
 }
 
-.text
+.item:hover
 {
-    margin-top: 7px;
+    background: #2F6A93;
+    color: #FFFFFF;
+    float: left;
+    font: bold 11px/11px Arial, sans-serif;
+    height: 32px;
+    padding-top: 11px;
+    text-align: center;
+    width: 110px;
 }
