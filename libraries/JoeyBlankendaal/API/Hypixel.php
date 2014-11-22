@@ -37,7 +37,7 @@ class Hypixel
             else
             {
                 $jsonURL = 'https://api.hypixel.net/player?key=' . $this->apiKey . '&name=' . $who;
-                $jsonGet = file_get_contents($jsonURL, 0, null, null);
+                $jsonGet = @file_get_contents($jsonURL, 0, null, null);
                 $jsonStrip = strip_tags($jsonGet);
                 $jsonOutput = json_decode($jsonStrip, true);
                 
