@@ -1,3 +1,5 @@
 Hypixel
 --------------------
-Everything created with the Hypixel API. Work in progress.
+A website with features made with the Hypixel Public API.
+
+http://hypixel.net/threads/php-website-w-hypixel-public-api.211890/
