@@ -1,12 +1,14 @@
 <?php
 /**
+ * Library
  * JoeyBlankendaal/Storage/Database
+ * 
  * All functions to work with the database.
- *
+ * 
  * @author Joey Blankendaal <joeyblankendaal@gmail.com>
  * @copyright (c) Joey Blankendaal 2014
- * @date 21 November 2014
- * @version 1.0.0
+ * @date 22 November 2014
+ * @version 1.0.2
  */
 
 class Database
@@ -24,9 +26,9 @@ class Database
     {
         self::$settings = $settings;
         
-        if (!self::$connection = @mysqli_connect($data['host'], $data['user'], $data['password'], $data['database']))
+        if (!self::$connection = @mysqli_connect($data['host'], $data['username'], $data['password'], $data['database']))
         {
-            throw new Exception('While connecting to host, using incorrect data.');
+            throw new Exception('While connecting to host, using incorrect data. Data: ' . $data['host'] . ', ' . $data['username'] . ', ' . $data['password'] . ', ' . $data['database']);
         }
         else
         {
@@ -36,7 +38,7 @@ class Database
             }
             else
             {
-                self::$user = $data['user'];
+                self::$user = $data['username'];
 	    }
         }
     }

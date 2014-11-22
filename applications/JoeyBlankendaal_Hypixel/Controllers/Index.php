@@ -1,4 +1,16 @@
 <?php
+/**
+ * Application
+ * JoeyBlankendaal/Hypixel/Controllers/Index
+ * 
+ * Controller for Index, also known as Home.
+ * 
+ * @author Joey Blankendaal <joeyblankendaal@gmail.com>
+ * @copyright (c) Joey Blankendaal 2014
+ * @date 22 November 2014
+ * @version 1.0.2
+ */
+
 class Index extends Controller
 {
     public function __contruct()
@@ -8,32 +20,7 @@ class Index extends Controller
     
     public function index()
     {   
-        $welcome = new View();
-        $welcome->render('Index/Welcome');
-        
-        $contactForm = new Form();
-        
-        $contactForm->setValidation('name', array('alpha' => true, 'minLength' => 3, 'maxLength' => 50, 'required' => true));
-        $contactForm->setValidation('email', array('alphaNumeric' => true, 'minLength' => 6, 'maxLength' => 100, 'required' => true));
-        
-        if (isset($_POST['submit']))
-        {
-            if ($contactForm->validateFields($_POST))
-            {
-                if ($loginForm->validEmail($loginForm->getField('email')))
-                {
-                    echo 'Your contact form has been sent and will be read as soon as possible!';
-                }
-            }
-        }
-        
-        $contactMe = new View();
-        $contactMe->render('Index/ContactMe');
-        
-        echo $contactForm->openForm();
-        echo $contactForm->setField('text', 'name', 'Name:');
-        echo $contactForm->setField('text', 'email', 'Email:');
-        echo $contactForm->setSubmit('submite', 'Send');
-        echo $contactForm->closeForm();
+        $index = new View();
+        $index->render('Index/Index');
     }
 }

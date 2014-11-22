@@ -1,4 +1,16 @@
 <?php
+/**
+ * Application
+ * JoeyBlankendaal/Hypixel/Controllers/Players
+ * 
+ * Controller for Players.
+ * 
+ * @author Joey Blankendaal <joeyblankendaal@gmail.com>
+ * @copyright (c) Joey Blankendaal 2014
+ * @date 22 November 2014
+ * @version 1.0.2
+ */
+
 class Players extends Controller
 {
     public function __construct()
@@ -8,7 +20,7 @@ class Players extends Controller
     
     public function index()
     {
-        $playerList = new View();
-        $playerList->render('Players/PlayerList');
+        $players = new View();
+        $players->render('Players/Players');
     }
 }

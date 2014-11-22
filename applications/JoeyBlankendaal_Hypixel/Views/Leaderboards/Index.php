@@ -1,2 +1,0 @@
-        <h1>Leaderboards</h1>
-        <p>These are custom leaderboards with Hypixel's data. Why are they custom? A user has to visit this page and has to enter his username. Of course, the user can also enter other players, but I'll make a little something that checks the IP and prevents them from adding more than a set amount if requested.</p>

@@ -1,12 +1,14 @@
 <?php
 /**
- * JoeyBlankendaal/Core/Configuration
+ * Library
+ * JoeyBlankendaal/Storage/Configuration
+ * 
  * Sets and manages configuration variables.
- *
+ * 
  * @author Joey Blankendaal <joeyblankendaal@gmail.com>
  * @copyright (c) Joey Blankendaal 2014
- * @date 21 November 2014
- * @version 1.0.0
+ * @date 22 November 2014
+ * @version 1.0.2
  */
 
 class Configuration
@@ -102,12 +104,12 @@ class Configuration
     
     public static function manualLoad($file, $variable = false)
     {
-        if (!is_string($file) || !file_exists(BASEPATH . $file))
+        if (!is_string($file) || !file_exists($file))
         {
-            throw new Exception('The config file didn\'t exist. (' . BASEPATH . $file . ')');
+            throw new Exception('The config file doesn\'t exist. (' . $file . ')');
         }
         
-        $content = require(BASEPATH . $file);
+        $content = require($file);
         
         if (!empty($variable) && !is_string($variable))
         {
@@ -130,11 +132,11 @@ class Configuration
     {
         if (!is_string($file) || !file_exists($file))
         {
-            throw new Exception('The config file didn\'t exist.');
+            throw new Exception('The config file doesn\'t exist.');
         }
         
         $fileName = basename($file, '.php');
-        $configDir = 'Application/Configuration/';
+        $configDirectory = 'applications/' . APPLICATION . '/Configuration/';
         
         return self::manualLoad($configDirectory . $file, $fileName);
     }

@@ -1,12 +1,14 @@
 <?php
 /**
+ * Library
  * JoeyBlankendaal/Core/DeepData
+ * 
  * Gets and saves deeper arrays.
- *
+ * 
  * @author Joey Blankendaal <joeyblankendaal@gmail.com>
  * @copyright (c) Joey Blankendaal 2014
- * @date 21 November 2014
- * @version 1.0.0
+ * @date 22 November 2014
+ * @version 1.0.2
  */
 
 class DeepData

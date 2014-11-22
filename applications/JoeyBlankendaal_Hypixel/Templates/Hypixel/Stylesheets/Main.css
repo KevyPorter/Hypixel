@@ -1,3 +1,25 @@
+.success, .error
+{
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 4px;
+    text-align: center;
+    width: 99%;
+}
+
+.success
+{
+    background: #96FF31;
+    border: 1px solid #449D04;
+}
+
+.error
+{
+    background: #F75353;
+    border: 1px solid #962133;
+}
+
 body
 {
     background: url(../Images/Background.png) repeat-x #FFFFFF;
@@ -156,4 +178,12 @@ ul li
     padding-top: 11px;
     text-align: center;
     width: 110px;
+}
+
+.small
+{
+    content: ' ';
+    display: block;
+    line-height: 10px;
+    margin-top: 5px;
 }

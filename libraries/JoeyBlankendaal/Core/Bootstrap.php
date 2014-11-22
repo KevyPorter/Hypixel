@@ -1,12 +1,14 @@
 <?php
 /**
+ * Library
  * JoeyBlankendaal/Core/Bootstrap
+ * 
  * Initializes the applications and loads up pages through controllers.
- *
+ * 
  * @author Joey Blankendaal <joeyblankendaal@gmail.com>
  * @copyright (c) Joey Blankendaal 2014
- * @date 21 November 2014
- * @version 1.0.0
+ * @date 22 November 2014
+ * @version 1.0.2
  */
 
 class Bootstrap
@@ -41,8 +43,7 @@ class Bootstrap
         
         if ($request == array('Index'))
         {
-            require('applications/' . APPLICATION . '/Views/Index/Welcome.php');
-            require('applications/' . APPLICATION . '/Views/Index/ContactMe.php');
+            require('applications/' . APPLICATION . '/Views/Index/Index.php');
         }
         else if (file_exists('applications/' . APPLICATION . '/Controllers/' . str_replace('/', '', ucfirst($request[0])) . '.php'))
         {

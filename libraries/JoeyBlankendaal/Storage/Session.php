@@ -1,8 +1,10 @@
 <?php
 /**
+ * Library
  * JoeyBlankendaal/Storage/Session
+ * 
  * All functions to work with sessions.
- *
+ * 
  * @author Joey Blankendaal <joeyblankendaal@gmail.com>
  * @copyright (c) Joey Blankendaal 2014
  * @date 21 November 2014

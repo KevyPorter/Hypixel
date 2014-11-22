@@ -1,3 +1,0 @@
-        <h1>Contact me!</h1>
-        <p>Any questions about this project? Feel free to send me a tweet. You can find my Twitter <a href="https://twitter.com/JoeyBlankendaal" />here</a>. I'll try and respond quickly! Make sure to elaborate your questions so I can reply with a detailed answer.</p>
-        <p>If you don't have a Twitter account and you don't feel like making one, you can use this form. Everything will be sent into the database and in my email.</p>

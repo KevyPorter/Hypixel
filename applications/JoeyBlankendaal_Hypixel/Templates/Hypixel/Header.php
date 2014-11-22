@@ -1,3 +1,16 @@
+<?php
+/**
+ * Application
+ * JoeyBlankendaal/Hypixel/Templates/Hypixel/Header
+ * 
+ * Header for Template 'Hypixel'.
+ * 
+ * @author Joey Blankendaal <joeyblankendaal@gmail.com>
+ * @copyright (c) Joey Blankendaal 2014
+ * @date 22 November 2014
+ * @version 1.0.2
+ */
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,9 +37,8 @@
         </div>
         
         <div class="menu">
-            <a href="/"><div class="first item">Index</div></a>
-            <a href="/players"><div class="item">Players</div></a>
-            <a href="/leaderboards"><div class="item">Leaderboards</div></a>
-            <a href="/guilds"><div class="item">Guilds</div></a>
+            <a href="/"><div class="first item"><br class="small" />Index</div></a>
+            <a href="/players"><div class="item"><br class="small" />Players</div></a>
+            <a href="/leaderboards"><div class="item"><br class="small" />Leaderboards</div></a>
         </div>
 
